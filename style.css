@@ -1,0 +1,225 @@
+/*fonts:
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+*/
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: 1750px;
+  color: white;
+  justify-content: center;
+}
+.first.container{
+  background: #1F2937;
+  height: 900px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+.second.container{
+  background-color:white;
+  height: 700px;
+}
+.third.container{
+  height: 300px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+}
+.fourth.container{
+  background: white;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}
+
+
+.hl{
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  color: #F9FAF8;
+  margin-right: 100px;
+}
+.hl:hover{
+  cursor:default;
+}
+
+.link.menu{
+  height: 8px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  flex : 1 1 auto;
+  align-items:center;
+}
+.link{
+  margin-top: 10px;
+}
+.f.link, .s.link , .t.link{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #E5E7EB;
+  font-family: sans-serif;
+}
+.f.link:hover, .s.link:hover, .t.link:hover{
+  cursor: pointer;
+  font-weight: bolder;
+  animation: ani1 1s forwards;
+}
+.content-first{
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.ttt , .iii{
+  background: inherit;
+  border : 10px;
+  width: 500px;
+  padding: 0;
+  border: 0;
+}
+.t_t{
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    margin: none;
+    padding: none;
+    border:none;
+}
+.v_v{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color:#E5E7EB;
+}
+.ig{
+  width: 500px;
+  height: auto;
+  margin: 10px;
+  margin-top: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+@keyframes ani1 {
+  0%{font-size: 19px;}
+  50%{font-size: 20px;}
+  100%{font-size: 21px;}
+}
+
+.header2{
+  display: flex;
+  color: #1F2937;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 1 auto;
+  font-family: 'Oswald', sans-serif;
+}
+.ph3{
+  font-size: 36px;
+}
+.image-container{
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: flex-start;
+}
+.item{
+  width: 300px;
+  height: 250px;
+  border: 5px solid #3882f6;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+.l1{
+  display: inline;
+  margin-right: 190px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(120, 120, 120);
+}
+.l1.a{
+  transform: translateX(420px);
+}
+.l1.b{
+  transform: translate(770px,-70px);
+}
+.l1:visited{
+  color: rgb(120,120,120);
+}
+
+.third-item{
+  font-size: 36px;
+  font-weight: lighter;
+  font-family: italic;
+  color: #1F2937;
+}
+.gary{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  color: #1F2937;
+  font-weight: bolder;
+  transform: translate(1020px,-90px);
+}
+
+.cont{
+  display: flex;
+  flex: 1 1 auto;
+  height: 130px;
+  width: 800px;
+  background: #3882f6;
+  margin-bottom: 85px;
+  border-radius: 15px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+.bb{
+  color: white;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: inherit;
+}
+.bb:hover{
+  cursor:pointer;
+  animation: ani2 0.3s forwards;
+}
+@keyframes ani2 {
+  0%{background-color: rgb(142, 144, 139);}
+  50{background-color: gray; color: gray;}
+  100%{background-color: white; color: black;}
+}
+.hlast{
+  font-size: 26px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+}
+.tlast{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+}
